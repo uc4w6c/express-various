@@ -17,3 +17,6 @@ $ aws dynamodb describe-table --table-name users --endpoint-url http://localhost
 -> なぜか取得できない。。。
 
 $ npm install aws-sdk
+
+$ curl http://localhost:3000/usres
+$ curl -X POST localhost:3000/user/ -H "Content-Type: application/json" -d '{"id":2, "name":"Hanako", "age":22}'
