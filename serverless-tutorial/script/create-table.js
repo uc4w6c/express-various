@@ -1,4 +1,4 @@
-// ローカル環境で
+// ローカル環境のDynamoDBテーブル作成
 const AWS = require("aws-sdk");
 
 AWS.config.update({

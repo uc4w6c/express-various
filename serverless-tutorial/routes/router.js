@@ -3,6 +3,7 @@ const router = express.Router();
 
 const AWS = require("aws-sdk");
 
+// ローカルで実行する際にはローカルに接続したいため、
 const dynamoOptions = process.env.NODE_ENV === "development" ? {
     region: "localhost",
     endpoint: "http://localhost:8000", 
